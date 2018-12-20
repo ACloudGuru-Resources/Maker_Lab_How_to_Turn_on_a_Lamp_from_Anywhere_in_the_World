@@ -1,0 +1,6 @@
+cd /home/pi/Downloads
+git clone https://github.com/aws-samples/aws-greengrass-samples.git
+cd was-greengrass-samples
+cd greengrass-dependency-checker-GGCv1.6.0
+sudo modprobe configs
+sudo ./check_ggc_dependencies | more
